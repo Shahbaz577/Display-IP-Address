@@ -1,0 +1,98 @@
+/* Styling Location Button and Paragraph */
+
+#get-location-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+#get-location-button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transition: all 0.5s ease;
+  z-index: 0;
+  transform: translate(-50%, -50%);
+}
+
+#get-location-button:hover::before {
+  width: 0;
+  height: 0;
+}
+
+#get-location-button span {
+  position: relative;
+  z-index: 1;
+}
+
+#data {
+  color: rgb(8, 28, 15);
+  font-weight: 900;
+}
+
+
+
+#get-ip-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+#get-ip-button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transition: all 0.5s ease;
+  z-index: 0;
+  transform: translate(-50%, -50%);
+}
+
+#get-ip-button:hover::before {
+  width: 0;
+  height: 0;
+}
+
+#get-ip-button span {
+  position: relative;
+  z-index: 1;
+}
+
+#data-ip {
+  color: rgb(8, 28, 15);
+  font-weight: 900;
+}
+
+#get-location-button{
+  text-align: center;
+  margin-left: 500px;
+  margin-top: 30px;
+}
+#get-ip-button{
+  margin-left: 480px;
+}
